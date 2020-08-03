@@ -1,21 +1,8 @@
-.main {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.main__header {
-    margin: 0;
-    padding: 0;
-}
-
 .header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(238, 238, 238);
 }
 
 .header__title {
@@ -28,4 +15,27 @@
 .header__description {
     margin: 16px 0;
     font-size: 16px;
+}
+
+.photography {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255);
+}
+
+.photography__frame {
+    margin: 0 10px;
+    padding: 0;
+}
+
+.photography__image {
+    max-width: 100%;
+    height: auto; 
+}
+
+.photography__description {
+    padding: 20px;
+    text-align: center;
 }
