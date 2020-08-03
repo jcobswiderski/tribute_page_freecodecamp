@@ -39,6 +39,7 @@
 .photography__description {
     padding: 20px 20px 40px 20px;
     text-align: center;
+    font-size: 1em;
 }
 
 .timeline {
@@ -69,4 +70,22 @@
 
 .timeline__description {
     font-size: 1.15em;
+}
+
+.motto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-style: oblique;
+}
+
+.motto__content {
+    max-width: 600px;
+    font-size: 1.3em;
+    padding: 40px 15px 15px 15px;
+}
+
+.motto__author {
+    padding: 0 15px 50px 15px;
 }
